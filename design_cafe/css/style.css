@@ -1,0 +1,183 @@
+@charset "utf-8";
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: #e9d9c0;
+}
+
+/*ヘッダー部分(講義内で作成)*/
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4.4%;
+    position: absolute;
+    width: 100%;
+    top: 30px;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 48px;
+}
+
+.logo {
+    width: 434px;
+}
+
+.header-nav a {
+    color: #fff;
+    font-family: "Alatsi", sans-serif;
+}
+
+/*container位置*/
+.container{
+    padding-top: 144px;
+    display: flex;
+    justify-content: center;
+}
+.container1000{
+    max-width: 1000px;
+    padding: 144px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*セクションタイトル、コンテンツタイトルのフォントとサイズ指定*/
+.sec_title{
+    color:  #D20202;
+    font-family: "Diplomata SC", serif;
+    font-size: 40px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+.content-title{
+    color:  #D20202;
+    font-family: "Diplomata SC", serif;
+    font-size: 26px;
+    padding-bottom: 23px;
+}
+
+/*キービジュセクション*/
+.catch_copy{
+    justify-content: center;
+    align-items: center;
+}
+
+h2.catch_copy{
+    font-size: 64px;
+    line-height: 1.5;
+    padding-bottom: 16px;
+}
+.alatsi{
+    font-size: 26px;
+    font-family: "Alatsi", sans-serif;
+    padding-bottom: 40px;
+}
+
+/*ABOUT USセクション*/
+.about_us{
+    padding-left: 40px;
+}
+
+h4{
+    font-size: 32px;
+    padding-bottom: 16px;
+    line-height: 1.5;
+}
+
+.p180{
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.cheers-photo {
+    border-radius: 0 0 64px 0;
+}
+
+/*MENUセクション*/
+.menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.menu-photo{
+    border-radius: 0 64px 0 0;
+}
+
+.content-title{
+    padding-bottom: 5px;
+}
+
+/*GALLERYセクション 写真×5を画面いっぱいに横並びに*/
+.cafe_imgs{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 240px;
+    width: 100%;
+}
+
+/*EVENTセクション  */
+.event li{
+    display:flex;
+    font-size: 20px;
+    gap: 60px;
+    margin-bottom: 16px; 
+    border: 3px;
+}  
+
+.event ul{
+    border: 1px solid #4F270B;
+    padding: 32px 0;
+    width: 1000px;
+    background-color: #fff;
+}
+
+/*ACCESSセクション 挿入地図を画面いっぱいに広げる*/
+.access{
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 353px;
+}
+
+/*フッターセクション*/
+footer{
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+}
+
+.footer_container li{
+    display:flex;
+    margin-bottom: 16px; 
+    padding-left: 39px;
+}
+
+.footer_container{
+    max-width: 1000px;
+    margin: 80px 0 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*toTopボタンを右下に固定*/
+.to_Top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 140px;
+    height: 140px;
+}
+
+.footer-logo{
+    width: 380px;
+}
+
