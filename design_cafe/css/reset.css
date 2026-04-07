@@ -23,6 +23,7 @@ div {
   line-height: 1;
   color: #4f260b;
   box-sizing: border-box;
+  font-weight: normal;
 }
 
 a {
