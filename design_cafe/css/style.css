@@ -191,7 +191,6 @@ footer{
     justify-content: space-between;
     margin: 0 auto 60px;
     padding-top: 80px;
-    position: relative;
 }
 
 .cafe_info{
@@ -199,15 +198,15 @@ footer{
     justify-content: space-between;
 }
 
-/*toTopボタンを右下に固定
 .to_Top{
     position: fixed;
     bottom: 20px;
     right: 20px;
     width: 140px;
     height: 140px;
-}*/
+}
 
+/*toTopボタンの相対位置（absoluteという値は画面に対して固定ができるわけではなく、relativeを持つ要素を基準にした相対位置を決められる値になる）
 .to_Top{
     position: absolute;
     bottom: 20px;
@@ -215,6 +214,7 @@ footer{
     width: 140px;
     height: 140px;
 }
+*/
 
 .footer-logo{
     width: 380px;
@@ -223,4 +223,5 @@ footer{
 .copy{
     max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 60px;
 }
